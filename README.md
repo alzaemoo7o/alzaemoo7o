@@ -1,11 +1,10 @@
-# nbdev template
+# nbdev القالب
 
 Use this template to more easily create your nbdev project.
 
 {
   "private": true,
   "dependencies": {
-    "@theia/callhierarchy": "next",
     "@theia/file-search": "next",
     "@theia/git": "next",
     "@theia/markers": "next",
