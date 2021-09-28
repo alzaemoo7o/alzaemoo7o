@@ -1,3 +1,12 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://www.google.com.sa/?hl=arWe"></script>
+<title>Hello, AMPs</title>
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <meta name="viewport" content="width=device-width">
+    <script type="application/ld+json">
 {
   "short_name": "Weather",
   "name": "Weather: Do I need an umbrella?",
@@ -78,11 +87,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="description" content="This is the AMP Boilerplate.">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-dynamic-css-classes-0.1.js">
+    <link rel="preload" as="script" href="https://www.google.com.sa/?hl=ar">
+    <link rel="preload" as="script" href="https://www.google.com.sa/?hl=ar">
     <link rel="preload" href="hero-img.jpg" as="image">
     <link rel="preload" href="poster.jpg" as="image">
-    <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect dns-prefetch" href="https://www.google.com.sa/?hl=ar" crossorigin>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-dynamic-css-classes" src="https://cdn.ampproject.org/v0/amp-dynamic-css-classes-0.1.js"></script>
     <!-- Import other AMP Extensions here -->
