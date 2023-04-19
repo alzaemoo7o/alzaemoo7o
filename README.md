@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+
 
 	<a href="https://www.facebook.com/alzaemoo7o?mibextid=ZbWKwL">اضغط هنا</a>
 
@@ -19,12 +19,127 @@
   />
 </a>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<h2>يمكن الاطلاع على نافذة موقعنا على الورد بروس</h2>
+
+<iframe src="demo_iframe.htm" name="iframe_a" height="400px" width="100%" title="Iframe Example">نبذه مختصره</iframe>
+
+<p><a href="https://hzemblog.wordpress.com/" target="iframe_a">اهلا بك في صوت الرعد</a></p>
+
+<p>يمكن الضغط على العباره الترحبيه لفتح نافذه تطل على موقع صوت الرعد.</p>
 
 <style>
 * {
   box-sizing: border-box;
 }
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* نمط الراءس */
+
+header {
+
+  background-color: #666;
+
+  padding: 30px;
+
+  text-align: center;
+
+  font-size: 35px;
+
+  color: white;
+
+}
+
+/* قم بإنشاء عمودين / مربعات تطفو بجانب بعضها البعض */
+
+nav {
+
+  float: left;
+
+  width: 30%;
+
+  height: 300px;
+}
+
+/*نمط القائمة داخل القائمة */
+
+nav ul {
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+
+
+
+/* تخطيط متجاوب - يجعل العمودين / المربعات مكدستين فوق بعضهما البعض بدلاً من بعضهما البعض ، على شاشات صغيرة*/
+
+@media (max-width: 600px) {
+
+  nav, article {
+
+    width: 100%;
+
+    height: auto;
+    }
+    }
+    </style>
+
+</head>
+
+<body>
+
+
+
+<h2>الوقت بتوقيت العالمي</h2>
+
+<button type="button"
+
+onclick="document.getElementById('demo').innerhtml = Date()">
+
+انقر فوقي لعرض التاريخ والوقت.</button>
+
+<p id="demo"></p>
+
+
+
+<h2>هزيم</h2>
+
+<img src=" img hzim.jpg" alt="رابط موقع الصوره" width="400" height="300">
+
+<p>هنا جميع الخدمات والمواضيع التي تتمنا الحصول عليها في مكان واحد تشويق ومعلومات وتجاره وتسوق انواع المنتجات عبر العالم اتمنى ان تستمتع بوقتك</p>
+
+<header>
+  <h2>يمكنك زيرتنا عبر</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.facebook.com/alzaemoo7o">Facebook</a></li>
+      <li><a href="https://twitter.com/alzaemoo7o?t=E05AU46dHPpzCwx9VQ9C1A&s=09">Twitter</a></li>
+      <li><a href="https://pic.sopili.net/lnk/-/email-html/show/?text=alzaemoo7o%40hotmail.com&title=alzaemoo7o%40hotmail.com">او اتصل بنا عبر البريد الاكتروني</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>هزيم</h1>
+    <p>موقع هزيم للخدمات والمعلومات التجاريه ،ثقافه،علوم،ترفيه،نقدم لكم خدمات متميزه ومتنوعه في مجالات مختلفه تواكب التقدم والتطور السريع.</p>
+  </article>
+</section>
+
+<footer>
+  <p>اكليل</p>
+</footer>
+
+</body>
+</html>
+
 
 #myInput {
   background-image: url('/css/searchicon.png');
@@ -59,8 +174,7 @@
 }
 </style>
 
-<h2>يمكن الاطلاع على نافذة موقعنا على الورد بروس</h2>
-نبذه مختصره<iframe src="demo_iframe.htm" name="iframe_a" height="400px" width="100%" title="Iframe Example"></iframe>
+
 
 <p><a href="https://hzemblog.wordpress.com/" target="iframe_a">اهلا بك في صوت الرعد </a></p>
   <h1>هزيم</h1>
